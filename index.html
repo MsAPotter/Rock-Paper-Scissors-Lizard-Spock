@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Tutorial#1: https://www.youtube.com/watch?v=qipq1BV5myU-->
+<!-- Tutorial#2: https://www.youtube.com/watch?v=Qqy8Ov3NWvQ&t=886s-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Rock Paper Scissors Lizard Spock</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Asap:400,500,700" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Rock Paper Scissors Lizard Spock</h1>
+    </header>
+
+    <div class="score-board">
+        <div class="badge" id="user-label">user</div>
+        <div class="badge" id="computer-label">comp</div>
+        <span id ="user-score">0</span>:<span id ="computer-score">0</span>
+    </div>
+
+    <div class="result">
+        <p>Spock vaporizes rock. You win!</p>
+    </div>
+
+    <div class="choices">
+        <div class="choice" id="r">
+            <img src="images/rock-icon-grey.png" alt="rock" width="80px" height="80px">
+        </div>
+        <div class="choice" id="p">
+            <img src="images/paper-icon-grey.png" alt="paper" width="80px" height="80px">
+        </div>
+        <div class="choice" id="s">
+            <img src="images/scissors-icon-grey.png" alt="scissors" width="80px" height="80px">
+        </div>
+        <div class="choice" id="l">
+                <img src="images/lizardgray.png" alt="scissors" width="80px" height="80px">
+        </div>
+        <div class="choice" id="k">
+                <img src="images/spock.jpg" alt="scissors" width="80px" height="80px">
+        </div>
+    </div>
+
+    <p id="action-message">Click to make your move!</p>
+
+
+<script src="app.js" charset="utf-8"></script>
+</body>
+</html>
